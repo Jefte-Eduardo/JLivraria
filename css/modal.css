@@ -1,0 +1,197 @@
+#modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding-top: 5%;
+    z-index: 100;
+} 
+
+#modal-container.active {
+    width: 100vw;
+    height: 100vh;
+
+    display: block;
+    background: rgba(0, 0, 0, 0.774);
+}
+
+.modal-content {
+    width: 800px;
+    height: 750px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    background-color: #2D2D2D;
+
+    font-family: 'Rokkitt', serif;
+    color: white;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+#close-button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+
+    border: 1px solid white;
+    background: transparent;
+
+    font-family: 'Inconsolota', monospace;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.book-gender {
+    width: 330px;
+    height: 487px;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 25px;
+}
+
+.book-gender img {
+    width: 330px;
+    height: 487px;
+
+    margin-bottom: 10px;
+
+    background-color: white;
+}
+
+.book-gender span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.book-info {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.book-info span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.book-info span:nth-child(2) {
+    margin-bottom: 25px;
+}
+
+.book-info p {
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.modal-line {
+    border: 1px solid white;
+
+    margin-bottom: 30px;
+}
+
+.modal-content .finish {
+    padding-left: 59px;
+}
+
+.finish {
+    display: flex;
+    flex-direction: row;
+}
+
+.freight-area {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20%;
+}
+
+.freight-area span {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.freight-area label {
+    font-size: 1.3rem;
+}
+
+.search-cep, 
+#calculate-cep {
+    border: 1px solid white;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.search-cep::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.search-cep {
+    width: 200px;
+    height: 35px;
+}
+
+#calculate-cep {
+    width: 50px;
+    height: 35px;
+
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.4rem;
+}
+
+.subtotal, .total {
+    display: flex;
+    flex-direction: row;
+
+    gap: 59px;
+}
+
+.subtotal {
+    margin-bottom: 30px;
+}
+
+.total {
+    gap: 92px;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
